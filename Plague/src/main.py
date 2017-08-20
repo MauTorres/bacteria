@@ -5,7 +5,5 @@ from entornos import Entorno as En
 
 def main():
 	E = En.Entorno("gato")
-	E.imprimeVals()
-	E.imprimeBacs()
-
+	E.run()
 main()
